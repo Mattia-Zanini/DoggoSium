@@ -1,3 +1,4 @@
+ECHO OFF
 set /p choice=Sei sul computer di Alex? [y/n]
 IF %choice% == y goto ComputerAlex
 IF %choice% == n goto ComputerMattia
