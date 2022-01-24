@@ -9,11 +9,6 @@ Da fare:
 
 - Comando sium stop
 	Smette di leggere e imposta la variabile lavorando su false.
-
-- Risolvere il bug della disconnessione
-	Quando il bot viene disconnesso si bugga e non fa più niente.
-	Questo è probabilmente perché la variabile lavorando rimane bloccata su true.
-
 - Aggiungere la lingua giapponese e cinese
 	Penso questo sia facile da capire
 
@@ -142,8 +137,6 @@ client.on('message', message => {
         }
     }
 });
-
-
 
 /*	CODICE PER GLI SLASH COMMANDS (che per ora non vengono usati)
 client.ws.on('INTERACTION_CREATE', async interaction => {
