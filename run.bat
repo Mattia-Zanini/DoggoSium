@@ -8,5 +8,11 @@ cd F:\\doggosium
 node main.js
 
 :ComputerMattia
+if not exist "D:\doggosium\" (
+  mkdir "D:\doggosium\"
+  echo Cartella creata con successo
+) else (
+  echo Cartella già esistente
+)
 cd C:\Users\Mattia\Documents\GitHub\DoggoSium
 node main.js
